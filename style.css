@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.header{
+    padding: 39px 0 38px;
+}
+
+.highlight-text__grey{
+    color: #B3B3B3;
+}
+
+.dark_grey{
+    color: #37373F;
+}
+
+
+.promo{
+    height: 100vh;
+    background: url('../src/assets/img/helimain.svg') center center/cover no-repeat;
+    padding: 286px 0 260px;
+}
+
+
+
+.promo__title{
+    width: 887px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.yellow{
+    color: #FC9B09;
+}
+
+
+
+.promo__cost{
+    width: 224px;
+    height: 96px;
+    margin-top: 29px;
+    background-color: #FC9B09;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.156%;
+}
+
+.promo__cost .promo_procent{
+    font-size: 35px;
+    font-weight: 800px;
+}
+
+.promo__reserve{
+    width: 304px;
+    height: 68px;
+    margin-top: 12px;
+    background: none;
+    border-radius: 3px;
+    border: 3px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25), 0px 4px 70px 0px rgba(255, 255, 255, 0.70);
+}
+
