@@ -52,7 +52,7 @@
 
 
 
-.promo__cost{
+.promo__price{
     width: 224px;
     height: 96px;
     margin-top: 29px;
@@ -63,9 +63,40 @@
     font-style: normal;
     font-weight: 400;
     line-height: 151.156%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-.promo__cost .promo_procent{
+.promo__text{
+    padding: 11px 0 26px;
+    text-align: center;
+    margin-left: 23px;
+}
+
+.promo__price span{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.promo__price img{
+    margin-right: 10px;
+}
+
+
+.promo__price::after{
+    position: absolute;
+    content: '';
+    border: 17px solid transparent;
+    border-top: 12px solid #FC9B09;
+    bottom: -29px;
+    left: 120px;
+}
+ 
+.promo__price .promo_procent{
     font-size: 35px;
     font-weight: 800px;
 }
@@ -73,7 +104,7 @@
 .promo__reserve{
     width: 304px;
     height: 68px;
-    margin-top: 12px;
+    margin-top: 20px;
     background: none;
     border-radius: 3px;
     border: 3px solid #FFF;
@@ -123,9 +154,15 @@
     margin-top: 21px;
 }
 
-.photoshoot__images img{
-   float: left;
-   margin-left: 9px;
+.photoshoot__list{
+    position: relative;
+    list-style: none;
+    line-height: 40px;
+}
+
+.photoshoot__list span{
+    position: absolute;
+    margin-left: 8px;
 }
 
 
@@ -186,9 +223,18 @@
     color: #C7C7C7;
 }
 
+.organizer_bio2{
+    margin-top: 40px;
+}
+
 .organizer__ivanova{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.organizer__texts{
+    width: 290px;
+    text-align: center;
 }
 
