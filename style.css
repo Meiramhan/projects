@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
-    max-width: 980px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -39,9 +40,7 @@
 .promo__title{
     width: 887px;
     color: #FFF;
-    font-family: Montserrat;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
@@ -58,11 +57,8 @@
     margin-top: 29px;
     background-color: #FC9B09;
     color: #FFF;
-    font-family: Montserrat;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 151.156%;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -76,9 +72,7 @@
 
 .promo__price span{
     color: #FFF;
-    font-family: Montserrat;
     font-size: 35px;
-    font-style: normal;
     font-weight: 800;
 }
 
@@ -110,9 +104,7 @@
     border: 3px solid #FFF;
     color: #FFF;
     text-align: center;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 900;
     box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25), 0px 4px 70px 0px rgba(255, 255, 255, 0.70);
 }
@@ -134,18 +126,14 @@
 
 .photoshoot__title{
     color: #37373F;
-    font-family: Montserrat;
     font-size: 40px;
-    font-style: normal;
     font-weight: 500;
 }
 
 .photoshoot__descr{
     margin-top: 18px;
     color: #37373F;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 146.28%;
 }
@@ -155,13 +143,16 @@
 }
 
 .photoshoot__list{
-    position: relative;
     list-style: none;
     line-height: 40px;
 }
 
+.photoshoot__list li{
+    display: flex;
+    align-items: center;
+}
+
 .photoshoot__list span{
-    position: absolute;
     margin-left: 8px;
 }
 
@@ -193,9 +184,7 @@
 
 .organizer__title{
     color: #37373F;
-    font-family: Montserrat;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
 }
 
@@ -203,18 +192,16 @@
 .organizer__descr{
     margin-top: 14px;
     color: #37373F;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 151.156%;
 }
 
 .organizer__link{
+    display: block;
+    margin-top: 5px;
     color: #5286EC;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     text-decoration: none;
 }
@@ -238,3 +225,124 @@
     text-align: center;
 }
 
+
+
+.comments{
+    min-height: 1249px;
+    padding: 131px 0 47px;
+}
+
+.comments__name{
+    color: #37373F;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.comments__item{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+.comments__descr{
+    max-width: 510px;
+    margin-left: 20px;
+    
+}
+
+.comments__title{
+    color: #37373F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.comments__profession{
+    color: #37373F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comments__stars{
+    margin-top: 10px;
+}
+
+.comments__vector{
+    margin-left: 50px;
+}
+
+.comments__text{
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comments__comment{
+    margin-top: 20px;
+    color: #37373F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 151.156%;
+}
+
+.comments__date{
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comments__line{
+    width: 510px;
+    height: 0.5px;
+    background-color: #C7C7C7;
+}
+
+.comments__blocklink{
+    text-align: center;
+    margin-top: 49px;
+}
+
+.comments__link{
+    color: #5286EC;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social__icons{
+    display: flex;
+}
+
+.social__ru{
+    margin-left: 38px;
+}
+
+
+.footer{
+    height: 77px;
+    background-color: #FAF9F8;
+    padding: 3px 0 31px;
+    margin-top: 14px;
+}
+
+.footer .container{
+    display: flex;
+}
+.footer .container img{
+    margin-right: 20px;
+}
+
+.footer__desrc{
+    margin: 0 auto;
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
